@@ -2,7 +2,6 @@ package com.example.cloneinstagram;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -35,6 +34,9 @@ public class FeedActivitys extends AppCompatActivity {
     ArrayList<String> userCommentFB;
     ArrayList<String > userImageFB;
     FeedRecyclerAdapter feedRecyclerAdapter;
+   /* FeedRecyclerAdapter commentRecycler;
+    ArrayList<String> imageCommentFB;
+    ArrayList<String> commentFB;*/
 
 
     @Override
@@ -83,7 +85,7 @@ public class FeedActivitys extends AppCompatActivity {
         getDataFromFirestore();
 
 
-        RecyclerView recyclerView=findViewById(R.id.recyclerView);
+        RecyclerView recyclerView=findViewById(R.id.recycler_recycler);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         feedRecyclerAdapter=new FeedRecyclerAdapter(userEmailFromFB,userCommentFB,userImageFB);
         recyclerView.setAdapter(feedRecyclerAdapter);
@@ -92,7 +94,18 @@ public class FeedActivitys extends AppCompatActivity {
 
 
 
+
     }
+   /* public void click(){
+
+        imageCommentFB=new ArrayList<>();
+        commentFB=new ArrayList<>();
+
+        RecyclerView recyclerView1=findViewById(R.id.comment_recycler);
+        recyclerView1.setLayoutManager(new LinearLayoutManager(this));
+        commentRecycler=new FeedRecyclerAdapter(imageCommentFB,commentFB);
+        recyclerView1.setAdapter(commentRecycler);
+    }*/
 
     public void getDataFromFirestore(){
         CollectionReference collectionReference=firebaseFirestore.collection("Posts");
@@ -124,4 +137,6 @@ public class FeedActivitys extends AppCompatActivity {
             }
         });
     }
+
+
 }
