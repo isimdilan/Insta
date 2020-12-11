@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -34,9 +35,8 @@ public class FeedActivitys extends AppCompatActivity {
     ArrayList<String> userCommentFB;
     ArrayList<String > userImageFB;
     FeedRecyclerAdapter feedRecyclerAdapter;
-   /* FeedRecyclerAdapter commentRecycler;
-    ArrayList<String> imageCommentFB;
-    ArrayList<String> commentFB;*/
+
+
 
 
     @Override
@@ -76,6 +76,7 @@ public class FeedActivitys extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.feed_activity);
 
+
         userCommentFB=new ArrayList<>();
         userEmailFromFB=new ArrayList<>();
         userImageFB=new ArrayList<>();
@@ -96,16 +97,11 @@ public class FeedActivitys extends AppCompatActivity {
 
 
     }
-   /* public void click(){
 
-        imageCommentFB=new ArrayList<>();
-        commentFB=new ArrayList<>();
-
-        RecyclerView recyclerView1=findViewById(R.id.comment_recycler);
-        recyclerView1.setLayoutManager(new LinearLayoutManager(this));
-        commentRecycler=new FeedRecyclerAdapter(imageCommentFB,commentFB);
-        recyclerView1.setAdapter(commentRecycler);
-    }*/
+    public void click(View view){
+        Intent intent=new Intent(FeedActivitys.this,secondFeed.class);
+        startActivity(intent);
+    }
 
     public void getDataFromFirestore(){
         CollectionReference collectionReference=firebaseFirestore.collection("Posts");
@@ -130,6 +126,9 @@ public class FeedActivitys extends AppCompatActivity {
                       userImageFB.add(downloadurl);
 
                       feedRecyclerAdapter.notifyDataSetChanged();
+
+
+
 
 
                   }
