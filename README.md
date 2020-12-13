@@ -1,8 +1,5 @@
 # Insta
-comment ve comment_recycler diye iki xml oluşturdum
-bunlarıda yine FeedRecycler ın içinde bağlayim dedim
-comment.xml deki image de onclick atadım
-feed activity e geldim on click içinde recycler işlemlerini yapim dedim
-hata almıyorum ama app çöküyor 
-eklediğim tüm kodları yorum satırı yaptım ki kod bozulmasın gfdgdsfsfsd
-HELPPP
+İkinci bir activite oluşturdum ve bunun xml ine recylerview ekledim
+daha sonra comment diye bir xml oluşturup bunlar bağlaldım
+feedactivite den intent edip 2.feed e gidince boş ekran çıkıyor.normalde yorum eklebilmem gerekiyordu
+
