@@ -1543,6 +1543,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -1587,6 +1588,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable logo
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1712,7 +1714,6 @@ id bounce
 id button
 id button2
 id button3
-id button4
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1734,9 +1735,6 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id commentText
-id comment_Edit_text
-id comment_image
-id comment_recycleer
 id confirm_button
 id container
 id content
@@ -1813,6 +1811,9 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
+id imageView3
+id imageView5
 id info
 id invisible
 id italic
@@ -2074,10 +2075,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_second_feed
 layout activity_signup
 layout activity_upload
-layout comment
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

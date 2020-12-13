@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a662a09f936ef9769e962d90fad0478e\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f65e7d690d0436991c66205f0487ed30\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -49,20 +49,20 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\user\.g
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\bbc7ef4a71ac53d02c29369625c5d897\jetified-firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\18196cb635c56b39ea0e17f84a575001\jetified-protolite-well-known-types-17.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\73997d300745e54798cac797212c622f\jetified-grpc-android-1.21.0\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:2:11-69
@@ -71,7 +71,7 @@ ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagr
 	android:name
 		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:5:22-77
 application
-ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:7:5-24:19
+ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:7:5-23:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a662a09f936ef9769e962d90fad0478e\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a662a09f936ef9769e962d90fad0478e\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -114,32 +114,28 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\us
 		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:13:9-52
-activity#com.example.cloneinstagram.secondFeed
-ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:14:9-57
-	android:name
-		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:14:19-45
 activity#com.example.cloneinstagram.UploadActivity
-ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:15:9-52
+ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:14:9-52
 	android:name
-		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:15:19-49
+		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:14:19-49
 activity#com.example.cloneinstagram.FeedActivitys
-ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:16:9-51
+ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:15:9-51
 	android:name
-		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:16:19-48
+		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:15:19-48
 activity#com.example.cloneinstagram.SignUpActivity
-ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:17:19-49
+		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:16:19-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\user\Desktop\Android dersleri(Atil Samancioglu)\CloneInstagram\app\src\main\AndroidManifest.xml

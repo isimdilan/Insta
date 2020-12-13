@@ -1,11 +1,14 @@
 package com.example.cloneinstagram;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -13,6 +16,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentSnapshot;
@@ -35,6 +41,7 @@ public class FeedActivitys extends AppCompatActivity {
     ArrayList<String> userCommentFB;
     ArrayList<String > userImageFB;
     FeedRecyclerAdapter feedRecyclerAdapter;
+
 
 
 
@@ -86,22 +93,20 @@ public class FeedActivitys extends AppCompatActivity {
         getDataFromFirestore();
 
 
+
         RecyclerView recyclerView=findViewById(R.id.recycler_recycler);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         feedRecyclerAdapter=new FeedRecyclerAdapter(userEmailFromFB,userCommentFB,userImageFB);
         recyclerView.setAdapter(feedRecyclerAdapter);
 
 
-
+     /**/
 
 
 
     }
 
-    public void click(View view){
-        Intent intent=new Intent(FeedActivitys.this,secondFeed.class);
-        startActivity(intent);
-    }
+
 
     public void getDataFromFirestore(){
         CollectionReference collectionReference=firebaseFirestore.collection("Posts");
@@ -124,12 +129,7 @@ public class FeedActivitys extends AppCompatActivity {
                       userCommentFB.add(comment);
                       userEmailFromFB.add(userEmail);
                       userImageFB.add(downloadurl);
-
                       feedRecyclerAdapter.notifyDataSetChanged();
-
-
-
-
 
                   }
               }
@@ -137,5 +137,36 @@ public class FeedActivitys extends AppCompatActivity {
         });
     }
 
+    public void delete(View view){
+        AlertDialog.Builder alert=new AlertDialog.Builder(FeedActivitys.this);
+        alert.setTitle("Delete");
+        alert.setMessage("Are you sure?");
+        alert.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+
+                Task<Void> collectionReference=firebaseFirestore.collection("Posts").document().delete().addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void aVoid) {
+
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+
+                    }
+                });
+            }
+        });
+        alert.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Toast.makeText(FeedActivitys.this,"Not Delete",Toast.LENGTH_LONG).show();
+            }
+        });
+        alert.show();
+
+
+    }
 
 }

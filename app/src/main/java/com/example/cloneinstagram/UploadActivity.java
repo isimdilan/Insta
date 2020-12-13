@@ -59,8 +59,8 @@ public class UploadActivity extends AppCompatActivity {
        firebaseAuth=FirebaseAuth.getInstance();
 
 
-
     }
+
 
     public void upload(View view){
 

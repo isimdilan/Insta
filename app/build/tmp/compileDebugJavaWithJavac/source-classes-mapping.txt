@@ -1,3 +1,21 @@
+com/example/cloneinstagram/BuildConfig.java
+ com.example.cloneinstagram.BuildConfig
+com/example/cloneinstagram/FeedRecyclerAdapter.java
+ com.example.cloneinstagram.FeedRecyclerAdapter
+ com.example.cloneinstagram.FeedRecyclerAdapter$PostHolder
+com/example/cloneinstagram/FeedActivitys.java
+ com.example.cloneinstagram.FeedActivitys
+ com.example.cloneinstagram.FeedActivitys$1
+ com.example.cloneinstagram.FeedActivitys$2
+ com.example.cloneinstagram.FeedActivitys$2$1
+ com.example.cloneinstagram.FeedActivitys$2$2
+ com.example.cloneinstagram.FeedActivitys$3
+com/example/cloneinstagram/SignUpActivity.java
+ com.example.cloneinstagram.SignUpActivity
+ com.example.cloneinstagram.SignUpActivity$1
+ com.example.cloneinstagram.SignUpActivity$2
+ com.example.cloneinstagram.SignUpActivity$3
+ com.example.cloneinstagram.SignUpActivity$4
 com/example/cloneinstagram/UploadActivity.java
  com.example.cloneinstagram.UploadActivity
  com.example.cloneinstagram.UploadActivity$1
@@ -5,23 +23,3 @@ com/example/cloneinstagram/UploadActivity.java
  com.example.cloneinstagram.UploadActivity$2$1
  com.example.cloneinstagram.UploadActivity$2$1$1
  com.example.cloneinstagram.UploadActivity$2$1$2
-com/example/cloneinstagram/FeedRecyclerAdapter.java
- com.example.cloneinstagram.FeedRecyclerAdapter
- com.example.cloneinstagram.FeedRecyclerAdapter$PostHolder
-com/example/cloneinstagram/CommentRecyclerAdapter.java
- com.example.cloneinstagram.CommentRecyclerAdapter
- com.example.cloneinstagram.CommentRecyclerAdapter$PostHolder
-com/example/cloneinstagram/SignUpActivity.java
- com.example.cloneinstagram.SignUpActivity
- com.example.cloneinstagram.SignUpActivity$1
- com.example.cloneinstagram.SignUpActivity$2
- com.example.cloneinstagram.SignUpActivity$3
- com.example.cloneinstagram.SignUpActivity$4
-com/example/cloneinstagram/BuildConfig.java
- com.example.cloneinstagram.BuildConfig
-com/example/cloneinstagram/FeedActivitys.java
- com.example.cloneinstagram.FeedActivitys
- com.example.cloneinstagram.FeedActivitys$1
-com/example/cloneinstagram/secondFeed.java
- com.example.cloneinstagram.secondFeed
- com.example.cloneinstagram.secondFeed$1
